@@ -243,13 +243,17 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   place-items: center;
-  gap: 3.75rem;
 }
 
 .card {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border-radius: 12px;
   margin: 30px;
+  grid-column: 2 / 3; /* Menggunakan kolom ke-2 dari 3 kolom yang ada */
+  grid-row: 1 / 2; /* Menggunakan baris ke-1 dari 2 baris yang ada */
+  justify-self: center; /* Untuk menempatkan elemen secara horizontal di tengah */
+  align-self: center;
+}
 }
 
 .card__cover {
@@ -341,6 +345,7 @@ figcaption {
 
 .ftr {
   background-color: #262626;
+  text-shadow: 0 5px 30px #3c6e71;
   min-height: 10vh;
   display: grid;
   place-items: center;
