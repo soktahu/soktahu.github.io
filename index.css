@@ -254,7 +254,6 @@ section {
   justify-self: center; /* Untuk menempatkan elemen secara horizontal di tengah */
   align-self: center;
 }
-}
 
 .card__cover {
   object-fit: cover;
@@ -464,7 +463,6 @@ figcaption {
   .fig {
     margin: 0 4rem;
     padding: 0.2rem;
-  
   }
 }
 
